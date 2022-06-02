@@ -1,0 +1,29 @@
+.icons {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.images{
+    width: 30rem;
+    height: 25rem;
+}
+.hight {
+    height: calc(100% - 73px);
+}
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.icons-2 a {
+    text-decoration: none;
+}
+.btn:hover {
+    border-color: #eee;
+
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
